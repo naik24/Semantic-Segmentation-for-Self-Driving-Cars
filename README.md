@@ -26,17 +26,12 @@ dataE
         ├── CameraRGB
         ├── CameraSeg
 ```
-<p align = center><img src = "https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/bf959144-d533-44d4-8399-cba2c70d8693"</p>
+<p align = center><img src = "https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/3b4d503f-3d40-499c-b09f-4c0b565e80e2"</p>
+
 
 ## U-Net Model
 
-<p align = "center"><img src="https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/b987ad37-c689-4412-87f2-1712ee9799ed"></p>
+<p align = "center"><img src="https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/a9fca134-f939-4065-baa5-a5b8d3a1041d"></p>
+
 
 Each blue box corresponds to a multi-channel feature map. The number of channels is denoted on top of the box. The x-y-size is provided at the lower left edge of the box. White boxes represent copied feature maps. The arrows denote the different operations.
-
-## Training Parameters
-
-- Optimizer: Adam
-- Loss Function: Sparse Categorical Crossentropy
-- Metrics: Accuracy
-- Epochs: 20
