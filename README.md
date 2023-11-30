@@ -57,11 +57,14 @@ The 5000 images and their corresponding are distributed into train, validation, 
 Each blue box corresponds to a multi-channel feature map. The number of channels is denoted on top of the box. The x-y-size is provided at the lower left edge of the box. White boxes represent copied feature maps. The arrows denote the different operations. Link to the paper <a href = "https://arxiv.org/pdf/1505.04597.pdf">here</a>.
 
 ## Tools & Technologies
-![image](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/333e19cf-1174-43ce-a923-37f024e7a3a7)
-![image](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/35db5150-40a8-4fee-972a-01762b035411)
-![image](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/a6b463b9-ab19-4c9d-8eca-f266deebb71c)
-![image](https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/246a3b8d-ee43-4290-90ea-f2dfad3af6f1)
+<img width="1145" alt="image" src="https://github.com/naik24/Semantic-Segmentation-for-Self-Driving-Cars/assets/69704762/9fbf2341-0bc8-43cd-88f9-eee3920d36d7">
 
+The version used of above libraries are stated in the table below
 
+<div align="center">
+    
+| Python | Keras | Tensorflow | Numpy | Matplotlib | Scikit-learn | HDF5 | GPU              |
+|--------|-------|------------|-------|------------|--------------|------|------------------|
+|3.10.12 |2.14.0 |2.14.0      |1.23.5 |3.7.1       |1.2.2         |3.9.0 | Nvidia Tesla V100|
 
-
+</div>
