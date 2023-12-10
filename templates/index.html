@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Processing App</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        input[type="file"] {
+            padding: 10px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Semantic Segmentation for Self Driving Cars</h1>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*" required>
+        <button type="submit">Segment Image</button>
+    </form>
+
+    {% if input_image %}
+        <h2 align = "center">Input Image</h2>
+        <img src="{{ input_image }}" alt="Input Image">
+
+        {% if output_image %}
+            <h2 align = "center">Segmented Image Image</h2>
+            <img src="{{ output_image }}" alt="Processed Image">
+        {% endif %}
+    {% endif %}
+
+    <footer align = "center">Developed by: Prasad Naik, MS Computer Science, Stevens Institute of Technology</footer>
+</body>
+</html>
